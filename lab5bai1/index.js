@@ -1,10 +1,11 @@
+
 import React, { useState, useEffect } from "react";
 import { View, Text } from "react-native";
 import * as Font from "expo-font";
 import AppLoading from "expo-app-loading"; // Nếu dùng Expo SDK 45 trở về trước
 import { styles } from "./styles"; // Import styles
 
-const Lab5Bai1 = () => {
+const lab5Bai1 = () => {
     const [fontsLoaded, setFontsLoaded] = useState(false);
 
     useEffect(() => {
@@ -28,4 +29,4 @@ const Lab5Bai1 = () => {
     );
 };
 
-export default Lab5Bai1;
+export default lab5Bai1;
