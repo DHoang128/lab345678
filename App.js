@@ -1,8 +1,12 @@
-import react from "react";
+import React from "react";
+import { NavigationContainer } from "@react-navigation/native";
 
-import DetailScreen from "./lab6bai3";
-const App = () => {
-  return <DetailScreen></DetailScreen>;
-};
+import BottomTabs from "./lab7bai3/BottomTab/index"; // Đảm bảo đường dẫn đúng
 
-export default App; 
+export default function App() {
+  return (
+    <NavigationContainer>
+      <BottomTabs />
+    </NavigationContainer>
+  );
+}
